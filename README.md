@@ -1,6 +1,6 @@
 
 
-## Maven Commands used in the course
+## Maven Commands 
 
 |     Maven Command       |     Description          |
 | ------------- | ------------- |
@@ -8,7 +8,7 @@
 | "mvn spring-boot:run" | To start a springboot maven project |
 | "mvn spring-boot:build-image -Dmaven.test.skip=true" | To generate a docker image using Buildpacks. No need of Dockerfile |
 
-## Docker Commands used in the course
+## Docker Commands 
 
 |     Docker Command       |     Description          |
 | ------------- | ------------- |
@@ -35,7 +35,7 @@
 | "docker compose up" | To create and start containers based on given docker compose file |
 | "docker compose stop" | To stop services |
 
-## Kubernetes Commands used in the course
+## Kubernetes Commands 
 
 |     Kubernetes Command       |     Description          |
 | ------------- | ------------- |
@@ -64,7 +64,7 @@
 | "kubectl autoscale deployment accounts-deployment --min=3 --max=10 --cpu-percent=70" | To create automatic scaling using HPA for a deployment inside your cluster |
 | "kubectl logs node-id" | To get a logs of a given node inside your cluster |
 
-## Helm Commands used in the course
+## Helm Commands 
 
 |     Helm Command       |     Description          |
 | ------------- | ------------- |
